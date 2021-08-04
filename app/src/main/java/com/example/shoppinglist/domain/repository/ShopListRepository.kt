@@ -4,7 +4,7 @@ import com.example.shoppinglist.domain.ShopItem
 
 interface ShopListRepository {
 
-    fun getShopItem(shopItem: ShopItem)
+    fun addShopItem(shopItem: ShopItem)
 
     fun deleteShopItem(shopItem: ShopItem)
 

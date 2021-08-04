@@ -8,5 +8,6 @@ class AddShopItemUseCase(
 ) {
 
     fun addShopItem(shopItem: ShopItem){
+        shopListRepository.addShopItem(shopItem)
     }
 }
