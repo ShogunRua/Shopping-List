@@ -1,10 +1,12 @@
 package com.example.shoppinglist.domain.usecase
 
 import com.example.shoppinglist.domain.ShopItem
+import com.example.shoppinglist.domain.repository.ShopListRepository
 
-class AddShopItemUseCase {
+class AddShopItemUseCase(
+    private val shopListRepository: ShopListRepository
+) {
 
-    fun getShopItem(shopItem: ShopItem){
-
+    fun addShopItem(shopItem: ShopItem){
     }
 }
